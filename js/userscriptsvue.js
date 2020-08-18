@@ -15,7 +15,7 @@ var coursepage = 1;
 			 
 			 
 			 //console.log(usercookie);
-			 cookieobj["Playlist"]=usercookie;
+			 //cookieobj["Playlist"]=usercookie;
 				
 			coursecollection["Playlist"]=usercookie;
 			//	console.log(coursecollection);
