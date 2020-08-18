@@ -239,28 +239,32 @@ height:35px;
 	    margin: 35px 0 20px;
 }*/
 .popupMain{
-    position: fixed;
+        position: fixed;
     width: 100%;
     height: 100%;
-	 z-index: 7;	    
+    z-index: 99;
+    left: 0;
+    top: 0;
 }
 .popOverload{
-	background: black;
+background: black;
     opacity: 0.5;
-    position: fixed;
+    position: absolute;
     width: 100%;
-    height: 100%;	
-	 z-index:8;
+    height: 100%;
+    z-index: 100;
+    left: 0;
+    top: 0;
 }
 .popContent{
 	background: white;
-	width:400px;
-	height:450px;
-	position:relative;
-	margin: 170px auto;
-	 z-index:9;
-	 padding:15px;
-	 display:flex;
+    width: 400px;
+    height: 450px;
+    position: relative;
+    margin: 170px auto;
+    z-index: 102;
+    padding: 15px;
+    display: flex;
 }
 .fa.fa-times{
 	position: absolute;
