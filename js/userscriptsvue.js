@@ -8,16 +8,16 @@ var coursepage = 1;
 
         var check_usercookie=getCookie("userQueue");
 		coursecollection["Playlist"]=[];
-		usercookie=JSON.parse('[{"id":"1139","title":"Racecar: Pro Le Mans","image":"https://dev.minigolf.io/wp-content/uploads/2020/07/11391440x1600-1.png"},{"id":"54","title":"The C","image":"https://dev.minigolf.io/wp-content/uploads/2020/05/541440x1600-1.png"},{"id":"897","title":"Smiley","image":"https://dev.minigolf.io/wp-content/uploads/2020/07/8971440x1600.png"},{"id":"57","title":"Tristo","image":"https://dev.minigolf.io/wp-content/uploads/2020/05/571440x1600-1.png"}]');
-		coursecollection["Playlist"]=usercookie;
+		//usercookie=JSON.parse('[{"id":"1139","title":"Racecar: Pro Le Mans","image":"https://dev.minigolf.io/wp-content/uploads/2020/07/11391440x1600-1.png"},{"id":"54","title":"The C","image":"https://dev.minigolf.io/wp-content/uploads/2020/05/541440x1600-1.png"},{"id":"897","title":"Smiley","image":"https://dev.minigolf.io/wp-content/uploads/2020/07/8971440x1600.png"},{"id":"57","title":"Tristo","image":"https://dev.minigolf.io/wp-content/uploads/2020/05/571440x1600-1.png"}]');
+		//coursecollection["Playlist"]=usercookie;
 		if(check_usercookie.length > 0){
 			 usercookie=JSON.parse(check_usercookie);
 			 
 			 
 			 //console.log(usercookie);
-			// cookieobj["Playlist"]=usercookie;
+			 cookieobj["Playlist"]=usercookie;
 				
-				coursecollection["Playlist"]=usercookie;
+			coursecollection["Playlist"]=usercookie;
 			//	console.log(coursecollection);
 			
 	  }
