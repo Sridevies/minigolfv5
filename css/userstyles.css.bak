@@ -1,0 +1,297 @@
+body{
+font-family: 'Raleway', sans-serif !important;
+}
+ .banner {
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        }
+
+        .banner-image {
+            background-position: top center;
+            background-size: cover;
+            min-height: 475px;
+            text-align: center;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+            background-repeat: repeat;
+            background-attachment: scroll;
+            opacity: 1;
+        }
+
+        .title-border {
+            border-bottom: 2px solid #eeeeee;
+            width: 250px;
+            margin: 0px auto;
+        }
+
+        #main .product-info a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        .selectBtn {
+            font-weight: bold;
+            width: 150px;
+            min-height: 0px;
+            padding: 12px 15px;
+            border: none;
+            background: #ef0202;
+            color: #ffffff;
+            top: auto;
+            box-shadow: #ba1a1a 0px 5px;
+            display: block;
+            margin: 0 auto;
+            border-radius: 4px;
+        }
+
+            .selectBtn:hover {
+                background: #ff0000;
+                color: #ffffff;
+                top: 2px;
+                box-shadow: #ba1a1a 0px 3px;
+                transform: translateY(4px);
+                transition: 0.2s;
+                text-decoration: none;
+            }
+
+        .product-info a {
+            color: #999999;
+        }
+
+            .product-info a:hover, .product-info a:focus {
+                text-decoration: none;
+                color: #0d5875;
+            }
+
+        .fa-arrow-circle-left, .fa-arrow-circle-right {
+            font-size: 40px;
+            cursor: pointer;
+            top: 45%;
+            z-index: 2;
+        }
+
+        .fa-arrow-circle-left {
+            left: 0;
+        }
+
+        .fa-arrow-circle-right {
+            right: 0;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .slider-frame {
+            background-color: #0f0;
+            position: relative;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+        .btn {
+            width: 40px;
+            height: 100%;
+            background: rgba(0,0,0,0.3);
+            position: absolute;
+            top: 0;
+            z-index: 1000;
+        }
+
+            .btn.prev {
+                left: 0px;
+            }
+
+            .btn.next {
+                right: 0px;
+            }
+
+        .slider-container {
+            transition: margin-left .2s ease, left .5s ease;
+            position: absolute;
+            left: 0;
+        }
+
+            .slider-container .slide {
+                background-color: #f00;
+                float: left;
+                position: relative;
+                top: 0;
+                transition: width .2s ease, height .2s ease, top .2s ease;
+            }
+
+                .slider-container .slide:nth-child(even) {
+                    background-color: blue;
+                }
+
+        @media screen and (min-width: 401px) {
+            .iframeWidth {
+                width: 280px;
+            }
+        }
+
+        @media screen and (max-width: 400px) {
+            .iframeWidth {
+                width: 232px;
+            }
+        }
+		.courseheader{
+					text-align: left;
+				font-size: 24px;
+				margin: 5px;
+				font-weight: bold;
+				color: #000;
+    border-bottom: 4px solid #ef0202;
+		}
+		.slick-prev{
+			z-index:1;
+		}
+		.slick-prev, .slick-next{
+			margin-top:-18px;
+		}
+		.fa.fa-star, .fa.fa-minus-circle{
+			position:absolute;
+			right:5px;
+			cursor:pointer;
+			top: 5px;
+			 font-size: 20px;
+		}
+		.fa.fa-minus-circle{			
+			color:#ef0202;
+		}
+		.fa.fa-star.selected{
+			color:#ef0202;
+		}
+		.slick-initialized .slick-slide{
+			outline:0;
+			margin: 0 10px;
+		}
+		.imagetypecls{
+			width:100%;
+			height:80%;
+		}
+		
+		.slickchilds{
+		margin:0 auto; 
+		position:relative;
+		}
+.slick-prev:before, .slick-next:before{
+	font-size:35px !important;
+}
+.slick-slide img{
+	    border: 1px solid #e2e0e0;
+}
+.slick-prev{
+	left:-32px !important;
+}
+.slick-next{
+	right:-18px !important;
+}
+#slidercontainer{
+/*	padding:0 40px;*/
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+[v-cloak] {
+  display: none;
+}
+.playlistslider{
+	padding:20px	 10px !important;
+	background:#eeeeee;
+}
+.slickchilds > .fa{
+font-size:25px;
+}
+.customTooltipHover{
+	position:absolute;
+	top:3px;
+	right:25px;
+	background:#000000;
+	border-radius: 6px;
+	color: #fff;
+	display:none;
+	 padding: 1px 10px;
+}
+.customTooltip:hover .customTooltipHover{
+	display: inline-block;
+}
+.customimgTooltipHover{
+	position:absolute;
+	top:40%;
+	left:30%;
+	background:#000000;
+	border-radius: 6px;
+	color: #fff;
+	display:none;
+	 padding: 1px 10px;
+	 cursor:pointer;
+}
+.customimgTooltip:hover .customimgTooltipHover{
+	display: inline-block;
+}
+.fa.fa-star.position-relative{
+top:2px;
+}
+/*.slick-dots{
+left:0;
+top:-35px;
+height:35px;
+}
+.slick-dotted.slick-slider{
+	    margin: 35px 0 20px;
+}*/
+.popupMain{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+	 z-index: 7;	    
+}
+.popOverload{
+	background: black;
+    opacity: 0.5;
+    position: fixed;
+    width: 100%;
+    height: 100%;	
+	 z-index:8;
+}
+.popContent{
+	background: white;
+	width:400px;
+	height:450px;
+	position:relative;
+	margin: 170px auto;
+	 z-index:9;
+	 padding:15px;
+	 display:flex;
+}
+.fa.fa-times{
+	position: absolute;
+	padding: 10px;
+    cursor: pointer;
+	font-size:20px;
+}
+iframe{
+border:0px;
+}
+.popIframe{
+	width:100%;
+	 height: 100%;
+	 border: 1px solid #e2e0e0;
+}
+.popClose .fa-star{
+	padding:15px;
+}
+.popContent .fa.fa-minus-circle{			
+			padding:20px;
+		}
+@media only screen and (max-width:480px){
+	.container {
+		padding:0 40px;
+	}
+	.popContent {
+	    height: 335px;
+		width:300px;
+	}
+	.popIframe h3{
+		font-size:22px;
+	}
+	
+}
